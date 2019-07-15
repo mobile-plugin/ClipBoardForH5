@@ -16,3 +16,6 @@ export const COMMONERROR = 10000
 
 /* util */
 export const GENERATIONMSG = 'GENERATIONMSG'
+
+/* clipboard */
+export const CLIPBOARDNAME = 'CLIPBOARDNAME'

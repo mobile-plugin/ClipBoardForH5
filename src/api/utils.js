@@ -5,7 +5,6 @@
  */
 
 import {
-  GENERATIONMSG,
   SUCCESSCODE
 } from '@const'
 
@@ -13,7 +12,7 @@ import {
  * 统一结果格式
  * @params params<Object> { code<Number>, data<Any> }
  */
-export const [ GENERATIONMSG ] = ({ code= SUCCESSCODE, data = '' }) => {
+export const GENERATIONMSG = ({ code= SUCCESSCODE, data = '' }) => {
   return {
     code,
     data
