@@ -18,7 +18,7 @@ clipboard api for mobile
 use for npm/cnpm
 ```bash
 # install
-npm/cnpm i clipboardh5 --save 
+npm/cnpm i clipboardforh5 --save 
 ```
 ```javascript
 import { _clipboard as cpb } from 'clipboardh5'
